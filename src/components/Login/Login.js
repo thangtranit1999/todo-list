@@ -28,7 +28,7 @@ const Login = () => {
 
   const login = () => {
     axios
-      .post('54.251.155.233:5000/user/login', account)
+      .post('http://54.251.155.233:5000/user/login', account)
       .then((result) => {
         console.log(result);
         setLogged(true);
