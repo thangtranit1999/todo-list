@@ -57,7 +57,7 @@ const Login = () => {
           />
         </div>
         <div className='col-md-4 m-auto'>
-          <h1 className='mb-4'>Đăng nhập</h1>
+          <h1 className='mb-4'>Đăng nhập(server HCM)</h1>
           <form onSubmit={handleSubmit}>
             <Input
               name='username'
@@ -65,14 +65,14 @@ const Login = () => {
               type='text'
               value={account.username}
               onChange={handleChange}
-              helpText='Tài khoản không tồn tại'
+              
             />
             <Input
               name='password'
               label='Mật khẩu'
               type='password'
               value={account.password}
-              helpText='Sai mật khẩu'
+              
               onChange={handleChange}
             />
             <button type='submit' className='btn btn-primary'>
