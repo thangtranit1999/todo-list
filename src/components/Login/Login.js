@@ -57,7 +57,7 @@ const Login = () => {
           />
         </div>
         <div className='col-md-4 m-auto'>
-          <h1 className='mb-4'>Đăng nhập(server HCM)</h1>
+          <h1 className='mb-4'>Đăng nhập(server HN)</h1>
           <form onSubmit={handleSubmit}>
             <Input
               name='username'
